@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        //for Döngüsü
+
+        for(let i = 0; i < 5; i++){
+            console.log("Sayı:" + i)
+        }
+
+        //While Döngüsü
+        let a = 0;
+        while(a<5){
+            console.log("Sayı:" + a)
+            a++;
+        }
+
+        //Do .. While Döngüsü
+
+        let b = 5;
+        do{
+            console.log("Sayı:" + b);
+            b++;
+        }while(b<5)
+
+        //for...in Döngüsü
+
+        let person = { name: "Ahmet", age: 32, city:"Van"}
+
+        for(let key in person){
+            console.log(key + ": " + person[key])
+        }
+
+        //for..of Döngüsü
+
+        let colors = ["Red","Green","Blue"]
+
+        for(let color of colors){
+            console.log(color)
+        }
+    </script>
+</body>
+</html>
